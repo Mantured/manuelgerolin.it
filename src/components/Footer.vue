@@ -7,7 +7,7 @@
   <pre></pre>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 h1 {
   color: violet;
 }

@@ -16,10 +16,10 @@ import Footer from "./components/Footer.vue";
 @import "./assets/scss/main.scss";
 #app {
   font-family: "Red Hat Display", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh; //something push down, watch m / fixed with reset
 }
 </style>
